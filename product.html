@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>product</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+</head>
+<body>
+	<header>
+		<div class="row justify-content-between align-items-center">
+			<div class="col-lg-2 col-4">
+				<a href="index.html"><p class="logo">Naraz</p></a>
+			</div>
+			<div class="col-lg-8 col-7 text-end">
+				<div class="main-menu">
+					<a href="#">Special offer</a>
+					<a href="#">Flash sale</a>
+					<a href="#">Contact</a>
+					<a href="#">About</a>
+				</div>
+				<div class=" menu-icon">
+					<div class="menu-bar">
+						<i class="fas fa-bars" id="menu-open"></i>
+					</div>
+					<div class="menu-close">
+						<i class="fas fa-times" id="menu-close"></i>
+					</div>	
+				</div>
+			</div>	
+		</div>
+	</header>
+
+
+	<div class="product">
+		<div class="container"> 
+			<div class="product-title">
+				<h2>Special discount offer</h2>
+			</div>
+			<div class="row justify-content-between ">
+				<div class="card col-lg-3" style="width: 22rem;">
+				   <img src="images/iphone3.png" class="card-img-top" alt="...">
+				   <div class="card-body">
+				      	<h5 class="card-title">Iphone 14pro max</h5>
+				      	<p class="card-text">Some quick example text to build on the card title and make up the 	bulk of the card's content.</p>
+				      	<div class="d-flex justify-content-between price-section">
+				      		<p>Price:</p>
+				      		<p>$<span id="iphone-price">999</span></p>
+				      	</div>				      	
+			      		<div class="input-group">
+                            <button id="iphone-minus" class="btn btn-default"><i class="fas fa-minus"></i></button>
+                            <input id="iphone-number" type="number" min="0" class="form-control text-center" value="0">
+                            <button id="iphone-plus" class="btn btn-default"><i class="fas fa-plus"></i></button>
+                    	</div>                   	
+				      	<a href="#" class="btn btn-primary">Add to cart</a>    
+				   </div>
+				</div>
+				<div class="card col-lg-3" style="width: 22rem;">
+				   <img src="images/phone.png" class="card-img-top" alt="...">
+				   <div class="card-body">
+				      <h5 class="card-title">Samsung s23 ultra</h5>
+				      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				      	<div class="d-flex justify-content-between price-section">
+				      		<p>Price:</p>
+				      		<p>$<span id="samsung-price">1019</span></p>
+				      	</div>				      	
+			      		<div class="input-group">
+                            <button id="samsung-minus" class="btn btn-default"><i class="fas fa-minus"></i></button>
+                            <input id="samsung-number" type="number" min="0" class="form-control text-center" value="0">
+                            <button id="samsung-plus" class="btn btn-default"><i class="fas fa-plus"></i></button>
+                    	</div> 
+				      <a href="#" class="btn btn-primary">Add to cart</a>
+				  </div>
+				</div>
+				<div class="card col-lg-3" style="width: 22rem;">
+				   <img src="images/laptop1.png" class="card-img-top" alt="...">
+				   <div class="card-body">
+				      <h5 class="card-title">Hp pavilion 5</h5>
+				      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				      	<div class="d-flex justify-content-between price-section">
+				      		<p>Price:</p>
+				      		<p>$<span id="laptop-price">1050</span></p>
+				      	</div>				      	
+			      		<div class="input-group">
+                            <button id="laptop-minus" class="btn btn-default"><i class="fas fa-minus"></i></button>
+                            <input id="laptop-number" type="number" min="0" class="form-control text-center" value="0">
+                            <button id="laptop-plus" class="btn btn-default"><i class="fas fa-plus"></i></button>
+                    	</div> 
+				      <a href="#" class="btn btn-primary">Add to cart</a>
+				  </div>
+				</div>
+				<div class="card col-lg-3" style="width: 22rem;">
+				   <img src="images/camera1.png" class="card-img-top" alt="...">
+				   <div class="card-body">
+				      <h5 class="card-title">Nikon A35s</h5>
+				      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				      	<div class="d-flex justify-content-between price-section">
+				      		<p>Price:</p>
+				      		<p>$<span id="camera-price">799</span></p>
+				      	</div>				      	
+			      		<div class="input-group">
+                            <button id="camera-minus" class="btn btn-default"><i class="fas fa-minus"></i></button>
+                            <input id="camera-number" type="number" min="0" class="form-control text-center" value="0">
+                            <button id="camera-plus" class="btn btn-default"><i class="fas fa-plus"></i></button>
+                    	</div>
+				      <a href="#" class="btn btn-primary">Add to cart</a>
+				  </div>
+				</div>
+				<div class="card col-lg-3" style="width: 22rem;">
+				   <img src="images/airpod1.png" class="card-img-top" alt="...">
+				   <div class="card-body">
+				      <h5 class="card-title">Airpod 2pro</h5>
+				      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				      	<div class="d-flex justify-content-between price-section">
+				      		<p>Price:</p>
+				      		<p>$<span id="airpod-price">599</span></p>
+				      	</div>				      	
+			      		<div class="input-group">
+                            <button id="airpod-minus" class="btn btn-default"><i class="fas fa-minus"></i></button>
+                            <input id="airpod-number" type="number" min="0" class="form-control text-center" value="0">
+                            <button id="airpod-plus" class="btn btn-default"><i class="fas fa-plus"></i></button>
+                    	</div>
+				      <a href="#" class="btn btn-primary">Add to cart</a>
+				  </div>
+				</div>
+				<div class="card col-lg-3" style="width: 22rem;">
+				   <img src="images/watch1.png" class="card-img-top" alt="...">
+				   <div class="card-body">
+				      <h5 class="card-title">Apple watch 2pro</h5>
+				      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				      	<div class="d-flex justify-content-between price-section">
+				      		<p>Price:</p>
+				      		<p>$<span id="watch-price">699</span></p>
+				      	</div>				      	
+			      		<div class="input-group">
+                            <button id="watch-minus" class="btn btn-default"><i class="fas fa-minus"></i></button>
+                            <input id="watch-number" type="number" min="0" class="form-control text-center" value="0">
+                            <button id="watch-plus" class="btn btn-default"><i class="fas fa-plus"></i></button>
+                    	</div>
+				      <a href="#" class="btn btn-primary">Add to cart</a>
+				  </div>
+				</div>
+			</div>
+		</div>		
+	</div>
+
+
+	<div>
+		<div class="container">		
+			<div class="total-section">
+				<h2>Total purchase ammount</h2>
+				<div class="row justify-content-between">
+	                <div class="col-md-4 col-6 text-center">
+	                    <h5>Subtotal: </h5>
+	                    <h5>Tax:</h5>
+	                    <h5>Total:</h5>
+	                </div>
+
+	                <div class="col-md-4 col-6 status text-center">
+	                   <h5>$<span id="sub-total">000</span> </h5>
+	                   <h5>$<span id="tax-ammount">000</span> </h5>
+	                   <h5>$<span id="total-price">000</span></h5>
+	                </div>
+	          	</div>
+	          	<div class="order">
+	          		<button id="order">Order now</button>
+	          	</div>
+			</div>			
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+	<footer><!-- FOOTER START -->
+		<div class="container">
+			<div class="footer-area">
+				<div class="footer-left">
+					<p><i class="far fa-copyright"></i> Naraz 2015-2023. ALL RIGHT RESERVED</p>
+				</div>
+				<div class="footer-social">
+					<ul>
+						<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+						<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer><!-- FOOTER END -->
+
+	<!-- Fontawesome -->
+	<script src="https://kit.fontawesome.com/2d1a4c108e.js" crossorigin="anonymous"></script>
+
+	<!-- Bootstrap -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+	<!-- Main js -->
+	<script src="js/product.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NaraZ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+</head>
+<body>
+	<header>
+		<div class="row justify-content-between align-items-center">
+			<div class="col-lg-2 col-4">
+				<a href="index.html"><p class="logo">Naraz</p></a>
+			</div>
+			<div class="col-lg-8 col-7 text-end">
+				<div class="main-menu">
+					<a href="#">Special offer</a>
+					<a href="#">Flash sale</a>
+					<a href="#">Contact</a>
+					<a href="#"><i class="bi bi-eye-slash"></i>About</a>
+				</div>
+				<div class=" menu-icon">
+					<div class="menu-bar">
+						<i class="fas fa-bars" id="menu-open"></i>
+					</div>
+					<div class="menu-close">
+						<i class="fas fa-times" id="menu-close"></i>
+					</div>	
+				</div>
+			</div>	
+		</div>
+	</header>
+
+	<main class="main">
+		<div class="container">
+			<div class="row justify-content-between align-items-center py-5">
+				<div class="col-lg-6 col-12">
+					<div class="log-pic fluid">
+						<!-- <img src="images/reg1.jpg" class="img-fluid"> -->
+					</div>
+				</div>
+				<div class="col-lg-6 col-12">
+					<div class="login-form">
+						<h2>Log in here</h2>
+						<div class="field email-field">
+							<div class="input-field">
+								<label class="user-label">Username/E-mail</label>
+								<input id="user-email"  class="mail" type="text" name="username" required>
+							</div>
+							<div class="error email-error">
+								<p class="error-text">Please enter your valid username or e-mail</p>
+							</div>
+						</div>
+
+						<div class="field create-password">
+							<div class="input-field">
+								<label class="user-label">Password</label>
+								<input id="user-password" class="password" type="password" name="password" required>
+								<i class="fa-solid fa-eye-slash show-hide"></i>
+							</div>
+							<div class="error password-error">
+								<i class="fas fa-exclamation-triangle"></i>
+								<p class="error-text">Please enter your password</p>
+							</div>
+						</div>
+
+						<div class="field confirm-password">
+							<div class="input-field">
+								<label class="user-label">Confirm Password</label>
+								<input id="confirm-password" class="cPassword" type="password" name="password" required>
+								<i class="fa-solid fa-eye-slash show-hide"></i>
+							</div>
+							<div class="error cPassword-error">
+								<i class="fas fa-exclamation-triangle"></i>
+								<p class="error-text">Password does not match</p>
+							</div>
+						</div>
+							
+						<div class="input-field button">
+				          <input type="submit" id="login-button" value="Log In">
+				        </div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<div>
+		
+
+	<footer><!-- FOOTER START -->
+		<div class="container">
+			<div class="footer-area">
+				<div class="footer-left">
+					<p><i class="far fa-copyright"></i> Naraz 2015-2023. ALL RIGHT RESERVED</p>
+				</div>
+				<div class="footer-social">
+					<ul>
+						<li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+						<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer><!-- FOOTER END -->
+
+	<!-- Fontawesome -->
+	<script src="https://kit.fontawesome.com/2d1a4c108e.js" crossorigin="anonymous"></script>
+
+	<!-- Bootstrap -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+	<!-- Main js -->
+	<script src="js/main.js"></script>
+</body>
+</html>

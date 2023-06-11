@@ -1,0 +1,259 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+ 	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+img{
+	width: 100%;
+	box-sizing: border-box;
+}
+/**** Header area ****/
+header{
+	background: #C4E538;
+	padding: 0 40px;
+	border-radius: 70px 70px 70px 70px;
+	position: absolute;
+	top: 5%;
+	width: 100%;
+
+}
+
+.logo{
+	font-size: 40px;
+	font-weight: 700;
+	color: #000;
+}
+.main-menu a{
+	font-size: 20px;
+	font-weight: 600;
+	color: #000;
+	margin-left: 30px;
+}
+.menu-bar i{
+	font-size: 30px;
+	color: #000;
+}
+.menu-bar{
+	display: none;
+}
+.menu-close{
+	display: none;
+}
+
+
+/**** Log in form ****/
+.main{
+	background: #1B1464;
+	padding-top: 100px;
+}
+.login-form{
+	background: #fff;
+	padding: 30px;
+	border-radius: 8px;
+}
+.login-form h2{
+	text-align: center;
+}
+.log-pic{
+	width: 500px;
+	height: 529px;
+	background: url(images/reg1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 8px;
+}
+.field{
+	margin-bottom: 20px;
+}
+.input-field{
+	position: relative;
+	height: 70px;
+	width: 100%;
+}
+.input-field label{
+	display: block;
+	margin-bottom: 5px;
+}
+.input-field input {
+  	height: 60%;
+  	width: 100%;
+  	outline: none;
+  	border: none;
+  	border-radius: 8px;
+  	padding: 0 15px;
+  	border: 1px solid #000; 	
+}
+.input-field .show-hide{
+	position: absolute;
+	right: 15px;
+	top: 60%;
+	cursor: pointer;
+}
+.field .error{
+	display: flex;
+	align-items: center;
+	color: #d93025;
+	visibility: hidden;
+}
+.invalid .error{
+	visibility: visible;
+}
+.field .error p{
+	padding: 0;
+	margin: 0;
+}
+.field .error i{
+	margin-right: 5px;
+	font-size: 18px;
+	cursor: pointer;
+	color: #919191;
+	padding: 3px;
+}
+.button{
+	margin: 25px 0 6px;
+}
+.button input {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #4070f4;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+}
+.button input:hover {
+  background-color: #0e4bf1;
+}
+
+
+/**** Product ****/
+.product{
+	padding-top: 150px;
+}
+.product-title{
+	background: #00d2d3;
+	padding: 5px 20px;
+	border-bottom:  2px solid #000;
+}
+.product-title h2{
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+}
+.card{
+	margin: 35px 0px;
+}
+.price-section{
+	font-size: 20px;
+	font-weight: 700;
+	text-align: right;
+}
+.input-group{
+	background: #00d2d3;
+	margin-bottom: 15px;
+}
+
+
+
+/**** thank-section ****/
+#thank{
+	background: #1B1464;
+}
+.thank-section{
+	text-align: center;
+	padding: 200px 0;
+	
+}
+.thank-section h2{
+	font-size: 30px;
+	font-weight: 700;
+	color: #000;
+	border-bottom: 2px solid #000;
+	margin: 20px 30px;
+	padding: 10px 0;
+}
+.thank-section p{
+	font-size: 15px;
+	font-weight: 500;
+	color: #000;
+}
+.holder{
+	background: #fff;
+	padding: 40px 0;
+	border: 2px dotted #000;
+	border-radius: 60px 20px 60px 20px;
+}
+
+
+/****total-section ****/
+.total-section{
+	background: #00d2d3;
+	padding: 30px;
+	margin-bottom: 20px;
+	border-radius: 8px;
+}
+.total-section h2{
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #000;
+}
+.order{
+	margin-top: 30px;
+	text-align: center;
+}
+.order button{
+	padding: 10px 30px;
+	background: #192a56;
+	border: 2px solid transparent;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: 600;
+	color: #fff;
+}
+.order button:hover{
+	background: transparent;
+	border: 2px solid #000;
+}
+
+
+/**** Footer ****/
+footer{
+	background: #C4E538;
+	padding: 20px 0;
+
+}
+.footer-area{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer-left p{
+	color: #000;
+	margin: 0;
+}
+.footer-social ul{
+	display: flex;
+	margin: 0;
+}
+.footer-social ul li a{
+	padding-left: 25px;
+	color: #000;
+	font-size: 25px;
+}
